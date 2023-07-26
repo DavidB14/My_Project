@@ -170,7 +170,11 @@ footer div {
   --card_text: #1586a2;
   --card_bg: #19675b;
   --hover: #0f574c;
-  --color5: #1e8525;
+  --color5: #1eb828;
+}
+
+body {
+  background-color: header_bg;
 }
 
 .titles {
