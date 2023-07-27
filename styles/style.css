@@ -105,7 +105,7 @@ footer a {
 }
 
 footer div {
-  margin: 20px;
+  margin: 95px;
 }
 
 @media screen and (max-width: 800px) {
@@ -177,7 +177,11 @@ body {
   background-color: header_bg;
 }
 
-.titles {
+li {
+  font-size: 16px;
+}
+
+ul {
   display: inline-block;
 }
 
@@ -185,8 +189,21 @@ h2 {
   color: var(--card_title);
 }
 
+.content_header {
+  padding-top: 84px;
+  background-color: var(--main_bg);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .card_text {
   font-family: 'Handjet', cursive;
   font-size: 16px;
   text-align: left;
+}
+
+.video {
+  width: 336px;
+  height: 198px;
 }
